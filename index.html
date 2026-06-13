@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upadesh Subedi | Computational Materials Science</title>
+<meta name="description" content="Upadesh Subedi - Computational Materials Science Researcher. Phase Field Modeling, Materials Informatics, Nuclear Materials.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Animated background -->
+<div class="bg-grid"></div>
+<canvas id="particles"></canvas>
+
+<!-- Nav -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">US<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#future">Future Direction</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle theme">
+      <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+    </button>
+    <button id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+  <div class="hero-content">
+    <p class="kicker fade-up">Computational Materials Science</p>
+    <h1 class="fade-up" style="animation-delay:0.1s">Upadesh <span class="accent">Subedi</span></h1>
+    <p class="hero-sub fade-up" style="animation-delay:0.2s">
+      Modeling microstructural evolution &amp; failure of materials in <span class="hl">extreme environments</span> —
+      from laser-driven multicomponent alloys to next-generation nuclear reactor materials.
+    </p>
+    <div class="hero-tags fade-up" style="animation-delay:0.3s">
+      <span>Phase Field Method</span>
+      <span>Materials Informatics</span>
+      <span>Tensor Computation</span>
+      <span>Machine Learning</span>
+      <span>Nuclear Materials</span>
+    </div>
+    <div class="hero-buttons fade-up" style="animation-delay:0.4s">
+      <a href="#research" class="btn btn-primary">Explore Research</a>
+      <a href="https://scholar.google.com/citations?user=wW5dA0sAAAAJ&hl=en" target="_blank" class="btn btn-outline">Google Scholar ↗</a>
+    </div>
+  </div>
+  <div class="hero-photo fade-up" style="animation-delay:0.2s">
+    <div class="photo-ring">
+      <img src="assets/profile.jpg" alt="Upadesh Subedi" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="photo-fallback">US</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</header>
+
+<main>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="section-head reveal">
+    <span class="num">01</span>
+    <h2>About</h2>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>
+        I am a Doctoral Researcher at the Faculty of Mechanical Engineering, Silesian University of Technology, Gliwice, Poland,
+        where I work on computational materials science with a focus on phase-field modeling, materials informatics,
+        and tensor-based thermodynamic frameworks.
+      </p>
+      <p>
+        My PhD thesis, <em>"Towards Digital Twins for Quantifying Laser-Microstructure Interface in Multicomponent Alloys
+        Using Thermodynamic Tensor Model,"</em> developed computational frameworks coupling phase-field methods,
+        thermodynamic (CALPHAD-based) modeling, and machine learning to predict microstructural evolution
+        during laser-based processing of multicomponent and high-entropy alloys.
+      </p>
+      <p>
+        I have been awarded Canada's <strong>Impact+ Research Training Award</strong> for a postdoctoral fellowship
+        at McMaster University, focusing on modeling and simulation of nuclear fusion reactor materials.
+      </p>
+    </div>
+    <div class="about-cards">
+      <div class="info-card">
+        <h3>Current</h3>
+        <p>Doctoral Researcher<br>Silesian University of Technology<br>Gliwice, Poland</p>
+      </div>
+      <div class="info-card">
+        <h3>Incoming</h3>
+        <p>Postdoctoral Fellow<br>McMaster University, Canada<br>Impact+ Research Training Award</p>
+      </div>
+      <div class="info-card">
+        <h3>Links</h3>
+        <p class="link-list">
+          <a href="https://scholar.google.com/citations?user=wW5dA0sAAAAJ&hl=en" target="_blank">Google Scholar ↗</a>
+          <a href="https://www.researchgate.net/profile/Upadesh-Subedi" target="_blank">ResearchGate ↗</a>
+          <a href="https://orcid.org/0000-0002-5527-1348" target="_blank">ORCID ↗</a>
+          <a href="https://www.linkedin.com/in/upadesh-s-0b321a15b/" target="_blank">LinkedIn ↗</a>
+          <a href="https://github.com/subediupadesh" target="_blank">GitHub ↗</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="section alt">
+  <div class="section-head reveal">
+    <span class="num">02</span>
+    <h2>PhD Research</h2>
+  </div>
+  <p class="reveal section-intro">
+    My doctoral work centers on building <strong>digital twin frameworks</strong> for laser-material interactions
+    in multicomponent alloys — combining phase-field simulation, CALPHAD thermodynamics, and deep learning
+    to predict, accelerate, and interpret microstructural evolution.
+  </p>
+  <div class="card-grid">
+    <div class="topic-card reveal">
+      <div class="icon">🧊</div>
+      <h3>Phase Field Modeling</h3>
+      <p>Simulating microstructural evolution — grain growth, intermetallic formation, phase decomposition —
+      under thermal and electric driving forces relevant to laser additive manufacturing and electromigration.</p>
+    </div>
+    <div class="topic-card reveal">
+      <div class="icon">⚛️</div>
+      <h3>Thermodynamic Tensor Models</h3>
+      <p>Coupling CALPHAD-based thermodynamic descriptions with tensor-formulated free energy models to capture
+      multicomponent alloy behavior efficiently within phase-field frameworks.</p>
+    </div>
+    <div class="topic-card reveal">
+      <div class="icon">🤖</div>
+      <h3>Machine Learning &amp; Informatics</h3>
+      <p>Conv-LSTM and U-Net frameworks for multi-generational microstructure prediction, accelerating
+      phase-field simulations and enabling data-driven materials design (pyMPEALab, IMCATHEA).</p>
+    </div>
+    <div class="topic-card reveal">
+      <div class="icon">🔬</div>
+      <h3>Laser–Microstructure Interface</h3>
+      <p>Quantifying meltpool dynamics, intermetallic growth (e.g. Ti2Cu, Cu6Sn5), and resulting microstructure
+      in laser additive manufacturing of Ti6Al4V and other multicomponent systems.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FUTURE DIRECTION -->
+<section id="future" class="section">
+  <div class="section-head reveal">
+    <span class="num">03</span>
+    <h2>Future Research Direction</h2>
+  </div>
+  <p class="reveal section-intro">
+    Building on my PhD foundation, my future research aims to
+    <strong> develop advanced computational materials models to predict failure in structural materials exposed
+    to extreme environments</strong> — enabling the design of safer, more resilient materials for
+    next-generation nuclear reactors and aerospace applications.
+  </p>
+
+  <div class="timeline reveal">
+    <div class="timeline-item">
+      <div class="timeline-marker">①</div>
+      <div class="timeline-content">
+        <h3>Plasma-Facing Materials for Nuclear Fusion</h3>
+        <p>
+          Modeling, simulating, and predicting the microstructural evolution, degradation, and fracture of
+          plasma-facing wall materials exposed to extreme electric, magnetic, and thermal fields in nuclear
+          fusion reactors — including void swelling, grain growth, radiation-induced phase separation,
+          and fracture modeling, coupled with CALPHAD thermodynamics.
+        </p>
+        <div class="tag-row">
+          <span>Phase Field</span><span>Radiation Damage</span><span>Fracture Modeling</span><span>CALPHAD</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-marker">②</div>
+      <div class="timeline-content">
+        <h3>Advanced Nuclear Fission Fuels (TRISO &amp; SMR Fuels)</h3>
+        <p>
+          Computational studies of next-generation fission fuels such as TRISO particles and advanced fuels
+          for small modular reactors (SMRs) — investigating evolution and degradation, diffusion phenomena,
+          microstructural changes after fission reactions, and the impact of high thermal fields on
+          fuel performance.
+        </p>
+        <div class="tag-row">
+          <span>TRISO Fuel</span><span>Diffusion Modeling</span><span>SMR</span><span>Microstructure Degradation</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-marker">③</div>
+      <div class="timeline-content">
+        <h3>Additive Manufacturing of Multi-Material Alloys</h3>
+        <p>
+          Computational modeling for additive manufacturing of multi-material alloys for extreme environments —
+          modeling multiphase microstructure evolution during additive manufacturing of high-entropy and
+          multicomponent alloys built for nuclear and aerospace applications.
+        </p>
+        <div class="tag-row">
+          <span>Additive Manufacturing</span><span>High-Entropy Alloys</span><span>Multiphase Microstructure</span><span>Aerospace</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications" class="section alt">
+  <div class="section-head reveal">
+    <span class="num">04</span>
+    <h2>Selected Publications</h2>
+  </div>
+  <div class="pub-list reveal">
+    <div class="pub-item">
+      <h3>Spatiotemporally learning the morphological and dynamic features of Au meltpool under different heat source types with phase-field informed U-Net framework</h3>
+      <p class="pub-meta">U. Subedi, A. Bhattarai, N. Moelans, T. Tański, A. Kunwar — <em>Computational Materials Science</em>, 2025</p>
+    </div>
+    <div class="pub-item">
+      <h3>Foretelling microstructural interface evolution with multi-generational convolutional-LSTM framework</h3>
+      <p class="pub-meta">U. Subedi, N. Moelans, T. Tański, A. Kunwar — 2025</p>
+    </div>
+    <div class="pub-item">
+      <h3>Integrating experiments and phase field method through informatics for tailored corrosion performance of additively manufactured steel microstructures (SDSS 2507)</h3>
+      <p class="pub-meta">M. Dagnaw, S. Poudel, U. Subedi, et al. — <em>ChemRxiv</em>, 2025</p>
+    </div>
+    <div class="pub-item">
+      <h3>Prototyping Ti2Cu Intermetallic Grain Growth Heterogeneously in Ti6Al4V Matrix through Laser Additive Manufacturing</h3>
+      <p class="pub-meta">U. Subedi et al.</p>
+    </div>
+    <div class="pub-item">
+      <h3>pyMPEALab Toolkit for Accelerating Phase Design in Multi-principal Element Alloys</h3>
+      <p class="pub-meta">S. Liang, C. Wei, A. Kunwar, U. Subedi, et al.</p>
+    </div>
+    <div class="pub-item">
+      <h3>Phase field modeling combined with data-driven approach to unravel orientation-influenced growth of interfacial Cu6Sn5 intermetallics under electric current stressing</h3>
+      <p class="pub-meta">U. Subedi et al.</p>
+    </div>
+  </div>
+  <p class="reveal" style="margin-top:2rem;">
+    <a href="https://scholar.google.com/citations?user=wW5dA0sAAAAJ&hl=en" target="_blank" class="btn btn-outline">View full list on Google Scholar ↗</a>
+  </p>
+</section>
+
+<!-- TOOLS / SOFTWARE -->
+<section id="tools" class="section">
+  <div class="section-head reveal">
+    <span class="num">05</span>
+    <h2>Software &amp; Tools</h2>
+  </div>
+  <div class="card-grid reveal">
+    <div class="topic-card">
+      <div class="icon">🧪</div>
+      <h3>pyMPEALab</h3>
+      <p>A Python-based Multi-Principal Element Alloy Laboratory for predicting phases of MPEAs using neural network algorithms.</p>
+      <a href="https://github.com/subediupadesh/pyMPEALab" target="_blank" class="link-arrow">View on GitHub →</a>
+    </div>
+    <div class="topic-card">
+      <div class="icon">🖥️</div>
+      <h3>IMCATHEA</h3>
+      <p>A Python-based GUI application for detecting intermetallic phases in High Entropy Alloy / Multi-Principal Element Alloy systems using neural networks.</p>
+      <a href="https://github.com/subediupadesh/IMCATHEA" target="_blank" class="link-arrow">View on GitHub →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section alt">
+  <div class="section-head reveal">
+    <span class="num">06</span>
+    <h2>Get in Touch</h2>
+  </div>
+  <div class="contact-wrap reveal">
+    <p class="section-intro" style="max-width:700px;">
+      I'm always happy to connect on topics around phase-field modeling, materials informatics,
+      nuclear materials, and additive manufacturing — feel free to reach out.
+    </p>
+    <div class="social-grid">
+      <a href="https://www.linkedin.com/in/upadesh-s-0b321a15b/" target="_blank" class="social-btn">LinkedIn</a>
+      <a href="https://github.com/subediupadesh" target="_blank" class="social-btn">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=wW5dA0sAAAAJ&hl=en" target="_blank" class="social-btn">Google Scholar</a>
+      <a href="https://www.researchgate.net/profile/Upadesh-Subedi" target="_blank" class="social-btn">ResearchGate</a>
+      <a href="https://orcid.org/0000-0002-5527-1348" target="_blank" class="social-btn">ORCID</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Upadesh Subedi · Built with HTML, CSS &amp; JS · <a href="https://github.com/subediupadesh/subediupadesh.github.io" target="_blank">Source</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
