@@ -286,6 +286,13 @@ footer a{ color:var(--accent); text-decoration:none; }
 .reveal{ opacity:0; transform:translateY(30px); transition:opacity .7s ease, transform .7s ease; }
 .reveal.visible{ opacity:1; transform:translateY(0); }
 
+/* TAB SYSTEM */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+.nav-links a.tab-active { color: var(--text); }
+.nav-links a.tab-active::after { width: 100%; }
+.scroll-cue { display: none; }
+
 /* RESPONSIVE */
 @media (max-width:900px){
   .nav-links{
