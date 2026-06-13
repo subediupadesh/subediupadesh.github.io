@@ -139,21 +139,17 @@ body{
   width:260px; height:260px; border-radius:50%; padding:6px;
   background:linear-gradient(135deg,var(--accent),var(--accent-2));
   display:flex; align-items:center; justify-content:center;
-  animation: spin-slow 14s linear infinite;
   position:relative;
 }
 .photo-ring img{
   width:100%; height:100%; object-fit:cover; border-radius:50%;
-  border:6px solid var(--bg); display:block; animation:none;
+  border:6px solid var(--bg); display:block;
 }
 .photo-fallback{
   display:none; width:100%; height:100%; border-radius:50%; border:6px solid var(--bg);
   background:var(--surface-2); align-items:center; justify-content:center;
   font-family:var(--font-head); font-size:4rem; font-weight:700; color:var(--accent);
 }
-@keyframes spin-slow{ 0%{ filter:hue-rotate(0deg);} 100%{ filter:hue-rotate(360deg);} }
-.photo-ring img, .photo-ring .photo-fallback{ animation: counter-spin 14s linear infinite; }
-@keyframes counter-spin{ 0%{transform:rotate(0deg);} 100%{transform:rotate(0deg);} }
 
 .scroll-cue{
   position:absolute; bottom:1.5rem; left:50%; transform:translateX(-50%);
@@ -251,6 +247,8 @@ body{
 }
 .pub-item:hover{ border-color:var(--accent); transform:translateX(4px); }
 .pub-item h3{ font-size:1rem; font-weight:600; margin-bottom:.4rem; }
+.pub-item h3 a{ color:var(--text); text-decoration:none; transition:color .2s; }
+.pub-item h3 a:hover{ color:var(--accent); text-decoration:underline; }
 .pub-meta{ color:var(--text-dim); font-size:.85rem; }
 
 /* CONTACT */
@@ -265,6 +263,17 @@ body{
   background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#0a0e17;
   transform:translateY(-4px); box-shadow:var(--shadow);
 }
+
+/* MEDIA SECTION */
+.video-wrap{ position:relative; width:100%; padding-top:56.25%; border-radius:10px; overflow:hidden; margin-bottom:1rem; background:var(--surface-2); }
+.video-wrap iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+.doc-list{ display:flex; flex-wrap:wrap; gap:1rem; }
+.doc-link{
+  display:inline-flex; align-items:center; gap:.5rem; padding:.9rem 1.6rem;
+  border-radius:10px; background:var(--surface); border:1px solid var(--border);
+  color:var(--text); text-decoration:none; font-weight:600; transition:all .3s;
+}
+.doc-link:hover{ border-color:var(--accent); color:var(--accent); transform:translateY(-3px); }
 
 /* FOOTER */
 footer{ text-align:center; padding:2rem; color:var(--text-dim); font-size:.85rem; border-top:1px solid var(--border); }
