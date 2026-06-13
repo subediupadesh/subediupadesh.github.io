@@ -23,9 +23,9 @@ Interface in Multicomponent Alloys Using Thermodynamic Tensor Model,"* combines 
 modeling, CALPHAD-based thermodynamics, and machine learning to predict microstructural
 evolution during laser-based processing of multicomponent and high-entropy alloys.
 
-Incoming Postdoctoral Fellow at **McMaster University, Canada**, supported by the
+<!-- Incoming Postdoctoral Fellow at **McMaster University, Canada**, supported by the
 **Impact+ Research Training Award**, working on modeling and simulation of nuclear fusion
-reactor materials.
+reactor materials. -->
 
 ## Future Research Direction
 
