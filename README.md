@@ -17,29 +17,41 @@ Phase-Field Modeling · Materials Informatics · Thermodynamic Tensor Models · 
 
 ## About
 
-Doctoral Researcher at the Faculty of Mechanical Engineering, Silesian University of Technology,
-Gliwice, Poland. My PhD work, *"Towards Digital Twins for Quantifying Laser-Microstructure
-Interface in Multicomponent Alloys Using Thermodynamic Tensor Model,"* combines phase-field
-modeling, CALPHAD-based thermodynamics, and machine learning to predict microstructural
-evolution during laser-based processing of multicomponent and high-entropy alloys.
+I am a **computational materials scientist** combining physics-based modeling and
+machine learning to understand how microstructures evolve during processing and
+under extreme conditions.
 
-<!-- Incoming Postdoctoral Fellow at **McMaster University, Canada**, supported by the
-**Impact+ Research Training Award**, working on modeling and simulation of nuclear fusion
-reactor materials. -->
+- **PhD successfully defended:** September 8, 2026, at the Silesian University of
+  Technology, Gliwice, Poland.
+- **Next:** Incoming Postdoctoral Researcher at **McMaster University, Canada**,
+  beginning **January 2027**.
+- **Fellowship:** **Canada Impact+**, supporting my upcoming
+  research on computational modeling of nuclear fusion materials.
 
-## Future Research Direction
+## Doctoral Research
 
-Developing advanced computational materials models to predict failure in structural materials
-exposed to extreme environments, enabling the design of safer, more resilient materials for
-next-generation nuclear reactors and aerospace applications:
+My doctoral research combined **phase-field modeling, CALPHAD thermodynamics,
+tensor methods, multiphysics simulations, and machine learning** to quantify
+laser–microstructure interactions in multicomponent alloys. This work developed
+computational foundations for digital-twin approaches and accelerated prediction
+of microstructural evolution.
 
-1. **Plasma-Facing Materials for Fusion Reactors** — microstructural evolution, degradation,
-   and fracture under extreme electric, magnetic, and thermal fields (void swelling, grain
-   growth, radiation-induced phase separation).
-2. **Advanced Nuclear Fission Fuels (TRISO / SMR)** — diffusion phenomena, microstructural
-   changes after fission reactions, and high-thermal-field performance.
-3. **Additive Manufacturing of Multi-Material Alloys** — multiphase microstructure evolution
-   in high-entropy and multicomponent alloys for nuclear and aerospace applications.
+**Dissertation:** *“Towards Digital Twins for Quantifying Laser-Microstructure
+Interface in Multicomponent Alloys Using Thermodynamic Tensor Model”*
+
+## Research Direction
+
+My upcoming postdoctoral work will focus on **modeling materials in extreme
+environments relevant to nuclear fusion**. My broader research interests include:
+
+- **Fusion materials:** Microstructural evolution, radiation-induced changes,
+  and degradation of plasma-facing materials under extreme thermal conditions.
+- **Nuclear fuels:** Diffusion, phase evolution, and degradation in TRISO and
+  advanced reactor fuels.
+- **Additive manufacturing:** Laser processing and multiphase evolution in
+  multicomponent and high-entropy alloys for nuclear and aerospace applications.
+- **Scientific machine learning:** Physics-informed surrogate models for faster
+  prediction of evolving material fields.
 
 ## Tools
 
